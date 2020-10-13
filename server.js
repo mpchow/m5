@@ -8,6 +8,6 @@ app.get('/time', (req, res) => {
    res.send({time: Date()});
 });
 
-let server = app.listen(443, () => {
-   console.log("listening at " + 443);
+let server = app.listen(3000, () => {
+   console.log("listening at " + 3000);
 })
